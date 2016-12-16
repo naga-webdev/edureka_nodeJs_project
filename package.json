@@ -1,0 +1,26 @@
+{
+  "name": "edureka_node_project",
+  "version": "1.0.0",
+  "description": "node js project for edureka",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "project",
+    "for",
+    "edureka",
+    "mongodb",
+    "angular"
+  ],
+  "author": "Korada Naga Babu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  }
+}

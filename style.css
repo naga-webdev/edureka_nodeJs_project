@@ -1,0 +1,31 @@
+#title {
+    text-align: center;
+}
+
+.center {
+     text-align: center;
+}
+
+.bold {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+
+.glyphicon-user {
+    font-size: 20px;
+    margin: 7px;
+}
+
+button {
+    float: right;
+}
+
+body {
+    background-image: url('images/2.jpg')
+}
