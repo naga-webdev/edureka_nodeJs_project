@@ -1,0 +1,10 @@
+use edureka				//edureka db
+ 
+db.createCollection("employees");	//employees collection in edureka db
+
+
+db.employees.insert({name : 'asdf',email : 'asdf@asdf.com',age: 15,dob : '25-12-2000',gender : 'Male',department : 'HR'});
+
+db.employees.insert({name : 'naga',email : 'naga@asdf.com',age: 16,dob : '25-12-1999',gender : 'Male',department : 'Sales'});
+
+db.employees.find().pretty();
